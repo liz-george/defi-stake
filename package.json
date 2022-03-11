@@ -1,0 +1,25 @@
+{
+  "name": "defi-stake",
+  "version": "1.0.0",
+  "description": "Staking functions",
+  "main": "approve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liz-george/defi-stake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liz-george/defi-stake/issues"
+  },
+  "homepage": "https://github.com/liz-george/defi-stake#readme",
+  "dependencies": {
+    "ethereumjs-common": "^1.5.2",
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.7.1"
+  }
+}
