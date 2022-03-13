@@ -1,6 +1,5 @@
 const pinataSDK = require('@pinata/sdk');
-const pinata = pinataSDK('6ba4a5f3223006f969fa', 'd869caa5bb722cdf09ca14385118db04f6e4550f429b8f2e936a1a000db089ee');
-
+const pinata = pinataSDK('API_key', 'SecretKey');
 const JSONBody = {
     userAddress : "0xf44c3adacC1aeb083625bA0B6d0a953DFce86F94", 
     stakeAmount : "1 QUEST",
